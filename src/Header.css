@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Nav_bg{
+    width: 100%;
+    height: auto!important;
+    /* top: 0!important; */
+
+    /* z-index: 2!important; */
+    background-color: rgba(0, 0, 0, 0.829);
+   
+}
+.navbar-brand{
+    color: aliceblue!important;
+    font-size: 35px!important;
+}
+.nav-link{
+    color: aliceblue!important;
+    font-size: 20px!important;
+    transition: 0.7s!important;
+}
+.nav-link:hover{
+    color: orange!important;
+}
+.navbar-toggler-icon{
+    border-color: white!important;
+}
+.active{
+    color: orange!important;
+}
